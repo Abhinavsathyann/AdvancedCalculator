@@ -61,3 +61,16 @@ java -Xshare:off HomePage
 
 💡 Tip:
 If you face “Invalid layout of java.lang.Class field” error, re-run with -Xshare:off or reinstall JDK.
+
+🛠 Optional: Create a Launcher (runCalculator.bat)
+
+Create a file named runCalculator.bat inside your project folder and paste this:
+
+@echo off
+title Advanced Java Calculator
+set JAVA_TOOL_OPTIONS=
+javac *.java
+java -Xshare:off HomePage
+pause
+
+Now you can simply double-click the .bat file to compile and run automatically 🎯
