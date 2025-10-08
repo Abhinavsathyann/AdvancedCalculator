@@ -31,3 +31,19 @@ Designed for clarity, efficiency, and user experience.
 ├── HelpPage.java
 ├── AboutPage.java
 └── CalculatorMain.java
+
+
+---
+
+## ⚙️ Requirements
+
+- Java JDK 17 or newer (recommended: [Eclipse Adoptium Temurin JDK 21+](https://adoptium.net/temurin/releases/))
+- Works on **Windows**, **macOS**, and **Linux**
+
+---
+
+## 🚀 Setup & Run
+
+### ▶️ 1. Open Terminal (or CMD) and Navigate to Your Project
+```bash
+cd "C:\Users\abhin\OneDrive\Desktop\AdvancedCalculator"
