@@ -83,3 +83,15 @@ Now you can simply double-click the .bat file to compile and run automatically �
 │ [📏 Unit]    [📜 History]     [⚙️ Settings]  │
 │ [❓ Help]    [ℹ️ About]       [🚪 Exit]      │
 └──────────────────────────────────────────────┘
+
+💡 Future Enhancements
+
+🧠 Smart expression parser
+
+🌙 Dark mode theme
+
+🧾 Export calculation history to file
+
+🔊 Voice-assisted calculations
+
+🌐 Cloud sync support
