@@ -1,50 +1,23 @@
-:: ===============================
-:: 🚀 ADVANCED JAVA CALCULATOR – ONE TERMINAL RUN
-:: ===============================
+# ⚙️ Advanced Java Calculator
 
-@echo off
-title Advanced Java Calculator – One Terminal Setup & Run
+A multi-page advanced calculator built in **Java Swing**, featuring **Basic**, **Scientific**, **Programmer**, and **Unit Converter** tools — plus **History**, **Settings**, **Help**, and **About** pages.  
+Designed for clarity, efficiency, and user experience.
 
-echo.
-echo ===================================================
-echo       ⚙️  ADVANCED JAVA CALCULATOR  (A-Z RUN)
-echo ===================================================
-echo.
+---
 
-:: Step 1️⃣ — Navigate to project folder
-cd /d "C:\Users\abhin\OneDrive\Desktop\AdvancedCalculator"
+## 🧠 Features
 
-:: Step 2️⃣ — Clean Java options (fix invalid layout bug)
-set JAVA_TOOL_OPTIONS=
-echo ✅ Java tool options cleared.
+- 🧮 **Basic Calculator** — Standard arithmetic operations  
+- 📈 **Scientific Calculator** — Trigonometric, logarithmic, and exponential functions  
+- 💻 **Programmer Mode** — Binary, Octal, Hexadecimal conversions  
+- 📏 **Unit Converter** — Convert length, weight, and temperature  
+- 📜 **History** — Review your previous calculations  
+- ⚙️ **Settings** — Customize appearance and behavior  
+- ❓ **Help Section** — Quick guide and keyboard shortcuts  
+- ℹ️ **About Page** — App info and credits  
+- 🚪 **Exit Confirmation** — Prevents accidental app closure  
 
-:: Step 3️⃣ — Disable shared archive temporarily
-java -Xshare:off -version
+---
 
-:: Step 4️⃣ — Compile all .java files
-echo.
-echo 🧩 Compiling Java source files...
-javac *.java
+## 🧩 Project Structure
 
-if %errorlevel% neq 0 (
-    echo ❌ Compilation failed! Check for syntax errors.
-    pause
-    exit /b
-) else (
-    echo ✅ Compilation successful.
-)
-
-:: Step 5️⃣ — Run the Calculator app
-echo.
-echo 🚀 Launching Advanced Java Calculator...
-echo.
-java -Xshare:off HomePage
-
-:: Step 6️⃣ — Post-run message
-echo.
-echo ===================================================
-echo 🎉  APP CLOSED SUCCESSFULLY
-echo 💡  Tip: Next time, just run this file again.
-echo ===================================================
-pause
-exit
