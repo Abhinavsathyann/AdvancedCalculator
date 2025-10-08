@@ -47,3 +47,17 @@ Designed for clarity, efficiency, and user experience.
 ### ▶️ 1. Open Terminal (or CMD) and Navigate to Your Project
 ```bash
 cd "C:\Users\abhin\OneDrive\Desktop\AdvancedCalculator"
+
+🧹 2. Clear Java Cache (to fix VM layout errors)
+set JAVA_TOOL_OPTIONS=
+java -Xshare:off -version
+
+🧩 3. Compile All Java Files
+javac *.java
+
+💻 4. Run the Application
+java -Xshare:off HomePage
+
+
+💡 Tip:
+If you face “Invalid layout of java.lang.Class field” error, re-run with -Xshare:off or reinstall JDK.
