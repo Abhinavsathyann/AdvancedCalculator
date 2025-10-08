@@ -20,4 +20,14 @@ Designed for clarity, efficiency, and user experience.
 ---
 
 ## 🧩 Project Structure
-
+📁 AdvancedCalculator
+├── HomePage.java
+├── BasicCalculator.java
+├── ScientificCalculator.java
+├── ProgrammerCalculator.java
+├── UnitConverter.java
+├── HistoryPage.java
+├── SettingsPage.java
+├── HelpPage.java
+├── AboutPage.java
+└── CalculatorMain.java
